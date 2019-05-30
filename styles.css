@@ -1,5 +1,29 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    
+}
+a {
+    color: #0d5676;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 0 0 8px;
+    flex-wrap: wrap;
+}
+header {
+    padding: 8px 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #c2bbc8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.shows {
+    padding: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer {
+    padding: 1em;
 }
